@@ -3,7 +3,7 @@
 ## Introduction
 
 This is an auxiliary tool to facilitate the katex-rendering process of posts in hexo-based blogs.
-For further information, see [this post](https://phantom0174.github.io/2023/01/lightweight_hexo_latex_rendering/).
+For further information, see [this post](https://phantom0174.github.io/2023/01/lightweight_hexo_latex_rendering/) and [this post](https://phantom0174.github.io/2023/01/latex-protector/).
 
 ## Usage
 
