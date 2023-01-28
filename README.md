@@ -20,3 +20,32 @@ protector = Protector(target_folder_root)
 
 protector.protect()
 ```
+
+## Custom Syntax
+
+Furthermore, you can enclose a section with two `<!--lp:skip-some-->` syntax to skip partial protection,
+or add a `<!--lp:skip-all-->` syntax at the beginning of the file to skip the entire protection of the `md` file.
+
+Examples:
+
+```md
+<!--lp:skip-some-->
+
+$$
+\text{This section will not be protected.}\\
+A_i + B_j = C_k
+$$
+
+<!--lp:skip-some-->
+```
+
+```md
+<!--lp:skip-all-->
+
+This file will not be protected.
+
+...
+...
+...
+
+```
